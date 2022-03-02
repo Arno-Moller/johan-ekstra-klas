@@ -1,0 +1,126 @@
+#Logo{
+    width: 60%;
+    min-width: 200px;
+    max-width: 250px;
+    margin-top:-20px
+}
+
+.heading{
+    font-size: large;
+}
+
+.nav-link{
+    font-size: larger;
+}
+
+.content{
+    height: 360px;
+}
+#middleDiv, #endDiv {
+    background-color: #e0dcdc;
+}
+.icons{
+    font-size: 200px;
+    margin-top: 80px;
+}
+#footer{
+    background-color: #3e3c3c;
+    height: 200px;
+}
+#h1Horizontal{
+    background-color: #cd0c0c;
+}
+.locationIcon{
+    color: #c40a0a;
+    cursor: pointer;
+}
+#h2Horizontal{
+    background-color: #159edd;
+}
+.timeIcon{
+    color: #159edd;
+}
+#h3Horizontal{
+    background-color: #09960c;
+}
+.priceIcon{
+    color: #09960c;
+}
+#Heading1, #Heading2, #Heading3, .h3{
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.horizontalLine{
+    margin-top: -6px;
+    height: 2px;
+}
+
+@media only screen and (max-width: 768px) {
+    .icons{
+        font-size: 100px;
+        margin-top: 10px;
+    }
+    #money{
+        visibility: hidden;
+    }
+    #money2{
+        display: block !important;
+    }
+    .iconContainers{
+        margin-bottom: -16px;
+    }
+    #priceDiv{
+        margin-top: -20px !important;
+    }
+    .h3{
+        font-size: 20px;
+    }
+    .contentParagraph{
+        font-size: 90%;
+    }
+    #profilePic{
+        width: 150px;
+    }
+    #profileDiv{
+        /*margin-bottom: -35px;*/
+    }
+    .content{
+        height: fit-content;
+    }
+    #timeIconDisappear{
+        display: none;
+    }
+
+}
+.navbar-nav{
+    font-weight: 500;
+    font-family: 'Yusei Magic', sans-serif;
+}
+#money2{
+    display: none;
+}
+#footerHr{
+    background-color: #cdcdcd;
+}
+#email{
+    color: #62c0ec;
+    text-decoration: none;
+}
+#locationLink, #moreAbout{
+    text-decoration: none;
+    color: #239ad2;
+    cursor: pointer;
+}
+
+ul{
+    font-family: 'Nunito', sans-serif;
+    /*font-size: 140%;*/
+}
+
+#aboutDiv{
+    background-color: #cdcdcd;
+}
+.img-thumbnail{
+    width: 200px;
+    border-radius: 100px;
+}
